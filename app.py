@@ -62,8 +62,10 @@ def chat(request: QueryRequest):
     return {
     "response": response,
     "selected_model": selected_model,
+    "complexity": prediction["complexity"],
+    "confidence": prediction["confidence"],
     "latency": latency,
     "evaluation": evaluation,
     "token_used": len(query.split()) + len(response.split()),
     "token_limit": 32768
-    }
+}

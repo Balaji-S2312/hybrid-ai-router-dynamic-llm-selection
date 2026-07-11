@@ -26,13 +26,15 @@ async function generateResponse(query) {
         const data = await response.json();
 
         return {
-            response: data.response,
-            selected_model: data.selected_model,
-            latency: data.latency,
-            evaluation: data.evaluation,
-            token_used: data.token_used,
-            token_limit: data.token_limit
-        };
+    response: data.response,
+    selected_model: data.selected_model,
+    complexity: data.complexity,
+    confidence: data.confidence,
+    latency: data.latency,
+    evaluation: data.evaluation,
+    token_used: data.token_used,
+    token_limit: data.token_limit
+};
 
     } catch (error) {
         console.error("API Error:", error);
