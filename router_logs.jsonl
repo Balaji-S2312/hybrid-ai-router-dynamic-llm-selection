@@ -1,0 +1,28 @@
+{"timestamp": "2026-07-02 02:32:14.970258", "query": "what is ml?", "selected_model": "local", "complexity": 0, "confidence": 1.0}
+{"timestamp": "2026-07-02 02:32:26.247048", "query": "what is ai?", "selected_model": "local", "complexity": 0, "confidence": 1.0}
+{"timestamp": "2026-07-02 02:32:59.711870", "query": "write a complex pytorch codeto work with transformers", "selected_model": "fireworks", "complexity": 100, "confidence": 1.0}
+{"timestamp": "2026-07-02 02:34:29.305444", "query": "write a complex pytorch codeto work with transformers", "selected_model": "fireworks", "complexity": 100, "confidence": 1.0}
+{"timestamp": "2026-07-02 02:34:49.263739", "query": "write a a* algorithm to search a tamilnadu in a world map ", "selected_model": "fireworks", "complexity": 45, "confidence": 0.1}
+{"timestamp": "2026-07-02 02:35:15.497769", "query": "write a array arrangement code ", "selected_model": "fireworks", "complexity": 35, "confidence": 0.3}
+{"timestamp": "2026-07-02 02:35:34.487702", "query": "define about a llm and retriever in a rag", "selected_model": "fireworks", "complexity": 35, "confidence": 0.3}
+{"timestamp": "2026-07-02 02:35:51.438773", "query": "discuss about the discrete mathematics", "selected_model": "local", "complexity": 10, "confidence": 0.8}
+{"timestamp": "2026-07-02 02:36:30.953809", "query": "discuss about the decion making in ai robots and reinforcement learning ", "selected_model": "local", "complexity": 10, "confidence": 0.8}
+{"timestamp": "2026-07-07 15:27:18.251529", "query": "define AI?", "selected_model": "local", "complexity": 0, "confidence": 1.0}
+{"timestamp": "2026-07-07 15:34:32.769995", "query": "hello", "selected_model": "local", "complexity": 10, "confidence": 0.8}
+{"timestamp": "2026-07-07 16:23:09.034994", "query": "define ai?", "selected_model": "local", "complexity": 0, "confidence": 1.0}
+{"timestamp": "2026-07-07 16:36:55.659281", "query": "what is artificial inteliigence?", "selected_model": "local", "complexity": 0, "confidence": 1.0}
+{"timestamp": "2026-07-07 17:05:12.049740", "query": "What is Artificial Intelligence?", "selected_model": "local", "complexity": 0, "confidence": 1.0}
+{"timestamp": "2026-07-07 17:05:43.770553", "query": "define ml?", "selected_model": "local", "complexity": 0, "confidence": 1.0}
+{"timestamp": "2026-07-07 17:11:38.944901", "query": "What is Artificial Intelligence?", "selected_model": "local", "complexity": 0, "confidence": 1.0}
+{"timestamp": "2026-07-07 17:11:57.127575", "query": "Define Machine Learning.", "selected_model": "local", "complexity": 0, "confidence": 1.0}
+{"timestamp": "2026-07-07 17:16:01.190384", "query": "What is Artificial Intelligence?", "selected_model": "local", "complexity": 0, "confidence": 1.0}
+{"timestamp": "2026-07-07 17:16:20.132254", "query": "Define Machine Learning.", "selected_model": "local", "complexity": 0, "confidence": 1.0}
+{"timestamp": "2026-07-07 17:16:49.088093", "query": "What is Deep Learning?", "selected_model": "local", "complexity": 0, "confidence": 1.0}
+{"timestamp": "2026-07-07 17:17:08.143004", "query": "What is cloud computing?", "selected_model": "local", "complexity": 0, "confidence": 1.0}
+{"timestamp": "2026-07-07 17:21:38.849879", "query": "Explain supervised, unsupervised, and reinforcement learning.", "selected_model": "fireworks", "complexity": 30, "confidence": 0.4}
+{"timestamp": "2026-07-07 17:22:19.633964", "query": "Compare Python and Java for AI development.", "selected_model": "fireworks", "complexity": 70, "confidence": 0.4}
+{"timestamp": "2026-07-07 17:22:47.828753", "query": "How does a neural network work?", "selected_model": "local", "complexity": 10, "confidence": 0.8}
+{"timestamp": "2026-07-07 17:23:21.489246", "query": "Design a scalable e-commerce system that can handle one million users. Explain the architecture, database design, caching strategy, load balancing, security, and deployment.", "selected_model": "fireworks", "complexity": 100, "confidence": 1.0}
+{"timestamp": "2026-07-07 17:37:37.918155", "query": "what is AI?", "selected_model": "local", "complexity": 0, "confidence": 1.0}
+{"timestamp": "2026-07-07 17:38:03.515729", "query": "explain AI?", "selected_model": "fireworks", "complexity": 30, "confidence": 0.4}
+{"timestamp": "2026-07-07 17:45:10.496373", "query": "write aprogram to array arrangement code in java language?", "selected_model": "fireworks", "complexity": 55, "confidence": 0.1}

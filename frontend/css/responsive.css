@@ -1,0 +1,97 @@
+/* =========================
+   Large Desktop
+========================= */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+
+/* =========================
+   Laptop
+========================= */
+@media (max-width: 1200px) {
+    .card-box {
+        margin-bottom: 20px;
+    }
+}
+
+/* =========================
+   Tablet
+========================= */
+@media (max-width: 992px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .flow {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .card-box {
+        height: auto;
+        padding: 20px;
+    }
+}
+
+/* =========================
+   Mobile
+========================= */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    textarea {
+        min-height: 140px;
+        font-size: 15px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .flow {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .step {
+        width: 100%;
+        text-align: center;
+    }
+
+    .card-box {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    .card-box {
+        padding: 15px;
+    }
+
+    .icon {
+        font-size: 28px;
+    }
+
+    #response {
+        font-size : 14px;
+    }
+}

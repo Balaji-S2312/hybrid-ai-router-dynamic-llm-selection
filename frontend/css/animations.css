@@ -1,0 +1,229 @@
+/* Fade In */
+
+.fade-in{
+    animation:fadeIn .5s ease;
+}
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+/* Floating */
+
+.float{
+
+    animation:float 5s ease-in-out infinite;
+
+}
+
+@keyframes float{
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-10px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+
+}
+
+/* Pulse */
+
+.pulse{
+
+    animation:pulse 2s infinite;
+
+}
+
+@keyframes pulse{
+
+    0%{
+        transform:scale(1);
+    }
+
+    50%{
+        transform:scale(1.05);
+    }
+
+    100%{
+        transform:scale(1);
+    }
+
+}
+
+/* Glow */
+
+.glow{
+
+    animation:glow 2s infinite alternate;
+
+}
+
+@keyframes glow{
+
+    from{
+        box-shadow:0 0 10px rgba(239,68,68,.4);
+    }
+
+    to{
+        box-shadow:0 0 30px rgba(239,68,68,.9);
+    }
+
+}
+
+/* Success */
+
+.success-glow{
+
+    animation:successGlow 1s ease;
+
+}
+
+@keyframes successGlow{
+
+    0%{
+        transform:scale(1);
+    }
+
+    50%{
+        transform:scale(1.1);
+        color:#22c55e;
+    }
+
+    100%{
+        transform:scale(1);
+    }
+
+}
+
+/* Loading Dots */
+
+.loading{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:8px;
+}
+
+.loading span{
+
+    width:12px;
+    height:12px;
+    border-radius:50%;
+    background:#ef4444;
+
+    animation:bounce .8s infinite;
+
+}
+
+.loading span:nth-child(2){
+
+    animation-delay:.2s;
+
+}
+
+.loading span:nth-child(3){
+
+    animation-delay:.4s;
+
+}
+
+@keyframes bounce{
+
+    0%,100%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-10px);
+
+    }
+
+}
+
+/* Button Hover */
+
+.btn-animate{
+
+    transition:.3s;
+
+}
+
+.btn-animate:hover{
+
+    transform:translateY(-4px) scale(1.02);
+
+}
+
+/* Card Hover */
+
+.card-hover{
+
+    transition:.3s;
+
+}
+
+.card-hover:hover{
+
+    transform:translateY(-8px);
+
+}
+
+/* Active Router Step */
+
+.step.active{
+
+    background:#ef4444;
+
+    color:white;
+
+    transform:scale(1.08);
+
+    box-shadow:0 0 20px rgba(239,68,68,.8);
+
+}
+
+/* Typing Cursor */
+
+.cursor::after{
+
+    content:"|";
+
+    animation:blink 1s infinite;
+
+}
+
+@keyframes blink{
+
+    0%,50%{
+
+        opacity:1;
+
+    }
+
+    51%,100%{
+
+        opacity:0;
+
+    }
+
+}
