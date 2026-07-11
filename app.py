@@ -4,11 +4,10 @@ from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 origins = [
+    "https://hybrid-ai-router-dynamic-llm-select.vercel.app",
     "http://localhost:5500",
     "http://127.0.0.1:5500",
-    "https://hybrid-ai-router-dynamic-llm-select.vercel.app",
 ]
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
@@ -28,7 +27,6 @@ manager = ModelManager()
 evaluator = Evaluator()
 logger = Logger()
 
-app = FastAPI()
 
 class QueryRequest(BaseModel):
     query: str
