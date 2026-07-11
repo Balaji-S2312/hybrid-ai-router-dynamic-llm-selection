@@ -54,4 +54,4 @@ def chat(request: QueryRequest):
     "evaluation": evaluation,
     "token_used": len(query.split()) + len(response.split()),
     "token_limit": 32768
-}
+    }
