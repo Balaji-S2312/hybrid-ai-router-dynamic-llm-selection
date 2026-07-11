@@ -56,7 +56,7 @@ generateBtn.addEventListener("click", async () => {
         scoreBox.textContent = data.evaluation?.score ?? "--";
         tokensUsedBox.textContent = data.token_used ?? "--";
         tokensRemainingBox.textContent =
-                    (data.token_limit - data.token_used) ?? "--";
+    data.token_limit ? data.token_limit - data.token_used : "--";
 
         // Response
         responseBox.textContent = data.response || "No response received.";

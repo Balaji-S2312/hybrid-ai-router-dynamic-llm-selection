@@ -1,6 +1,6 @@
 // frontend/js/api.js
 
-const API_URL = "http://127.0.0.1:8000/generate";
+const API_URL = "https://hybrid-ai-router-dynamic-llm-selection.onrender.com/chat";
 
 /**
  * Send query to FastAPI backend
@@ -25,23 +25,17 @@ async function generateResponse(query) {
 
         const data = await response.json();
 
-        return data;
+        return {
+            response: data.response,
+            selected_model: data.selected_model,
+            latency: data.latency,
+            evaluation: data.evaluation,
+            token_used: data.token_used,
+            token_limit: data.token_limit
+        };
 
     } catch (error) {
         console.error("API Error:", error);
-
-        return {
-            response: "Unable to connect to FastAPI server.",
-            selected_model: "-",
-            complexity: "-",
-            confidence: "-",
-            latency: "-",
-            evaluation: {
-                score: 0,
-                passed: false
-            },
-            tokens_used: 0,
-            tokens_remaining: 0
-        };
+        throw error;
     }
 }
