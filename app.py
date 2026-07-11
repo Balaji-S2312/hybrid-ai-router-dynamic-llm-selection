@@ -1,7 +1,21 @@
 import time
 from fastapi import FastAPI
 from pydantic import BaseModel
+from fastapi.middleware.cors import CORSMiddleware
+app = FastAPI()
+origins = [
+    "http://localhost:5500",
+    "http://127.0.0.1:5500",
+    "https://hybrid-ai-router-dynamic-llm-select.vercel.app",
+]
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 from classifier import ComplexityClassifier
 from router import Router
 from model_manager import ModelManager
