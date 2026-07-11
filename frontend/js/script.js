@@ -54,8 +54,9 @@ generateBtn.addEventListener("click", async () => {
                 ? "Passed ✅"
                 : "Failed ❌";
         scoreBox.textContent = data.evaluation?.score ?? "--";
-        tokensUsedBox.textContent = data.tokens_used ?? "--";
-        tokensRemainingBox.textContent = data.tokens_remaining ?? "--";
+        tokensUsedBox.textContent = data.token_used ?? "--";
+        tokensRemainingBox.textContent =
+                    (data.token_limit - data.token_used) ?? "--";
 
         // Response
         responseBox.textContent = data.response || "No response received.";
